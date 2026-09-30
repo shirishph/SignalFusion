@@ -1,0 +1,101 @@
+image_id,parent_id,transformation,parameters
+img_001_resize_50,img_001,resize_50,50%
+img_001_crop_15,img_001,crop_15,15% border crop
+img_001_brightness_20,img_001,brightness_20,+20% brightness
+img_001_rotate_5,img_001,rotate_5,+5 degrees
+img_001_jpeg_quality_50,img_001,jpeg_quality_50,JPEG quality=50
+img_002_resize_50,img_002,resize_50,50%
+img_002_crop_15,img_002,crop_15,15% border crop
+img_002_brightness_20,img_002,brightness_20,+20% brightness
+img_002_rotate_5,img_002,rotate_5,+5 degrees
+img_002_jpeg_quality_50,img_002,jpeg_quality_50,JPEG quality=50
+img_003_resize_50,img_003,resize_50,50%
+img_003_crop_15,img_003,crop_15,15% border crop
+img_003_brightness_20,img_003,brightness_20,+20% brightness
+img_003_rotate_5,img_003,rotate_5,+5 degrees
+img_003_jpeg_quality_50,img_003,jpeg_quality_50,JPEG quality=50
+img_004_resize_50,img_004,resize_50,50%
+img_004_crop_15,img_004,crop_15,15% border crop
+img_004_brightness_20,img_004,brightness_20,+20% brightness
+img_004_rotate_5,img_004,rotate_5,+5 degrees
+img_004_jpeg_quality_50,img_004,jpeg_quality_50,JPEG quality=50
+img_005_resize_50,img_005,resize_50,50%
+img_005_crop_15,img_005,crop_15,15% border crop
+img_005_brightness_20,img_005,brightness_20,+20% brightness
+img_005_rotate_5,img_005,rotate_5,+5 degrees
+img_005_jpeg_quality_50,img_005,jpeg_quality_50,JPEG quality=50
+img_006_resize_50,img_006,resize_50,50%
+img_006_crop_15,img_006,crop_15,15% border crop
+img_006_brightness_20,img_006,brightness_20,+20% brightness
+img_006_rotate_5,img_006,rotate_5,+5 degrees
+img_006_jpeg_quality_50,img_006,jpeg_quality_50,JPEG quality=50
+img_007_resize_50,img_007,resize_50,50%
+img_007_crop_15,img_007,crop_15,15% border crop
+img_007_brightness_20,img_007,brightness_20,+20% brightness
+img_007_rotate_5,img_007,rotate_5,+5 degrees
+img_007_jpeg_quality_50,img_007,jpeg_quality_50,JPEG quality=50
+img_008_resize_50,img_008,resize_50,50%
+img_008_crop_15,img_008,crop_15,15% border crop
+img_008_brightness_20,img_008,brightness_20,+20% brightness
+img_008_rotate_5,img_008,rotate_5,+5 degrees
+img_008_jpeg_quality_50,img_008,jpeg_quality_50,JPEG quality=50
+img_009_resize_50,img_009,resize_50,50%
+img_009_crop_15,img_009,crop_15,15% border crop
+img_009_brightness_20,img_009,brightness_20,+20% brightness
+img_009_rotate_5,img_009,rotate_5,+5 degrees
+img_009_jpeg_quality_50,img_009,jpeg_quality_50,JPEG quality=50
+img_010_resize_50,img_010,resize_50,50%
+img_010_crop_15,img_010,crop_15,15% border crop
+img_010_brightness_20,img_010,brightness_20,+20% brightness
+img_010_rotate_5,img_010,rotate_5,+5 degrees
+img_010_jpeg_quality_50,img_010,jpeg_quality_50,JPEG quality=50
+img_011_resize_50,img_011,resize_50,50%
+img_011_crop_15,img_011,crop_15,15% border crop
+img_011_brightness_20,img_011,brightness_20,+20% brightness
+img_011_rotate_5,img_011,rotate_5,+5 degrees
+img_011_jpeg_quality_50,img_011,jpeg_quality_50,JPEG quality=50
+img_012_resize_50,img_012,resize_50,50%
+img_012_crop_15,img_012,crop_15,15% border crop
+img_012_brightness_20,img_012,brightness_20,+20% brightness
+img_012_rotate_5,img_012,rotate_5,+5 degrees
+img_012_jpeg_quality_50,img_012,jpeg_quality_50,JPEG quality=50
+img_013_resize_50,img_013,resize_50,50%
+img_013_crop_15,img_013,crop_15,15% border crop
+img_013_brightness_20,img_013,brightness_20,+20% brightness
+img_013_rotate_5,img_013,rotate_5,+5 degrees
+img_013_jpeg_quality_50,img_013,jpeg_quality_50,JPEG quality=50
+img_014_resize_50,img_014,resize_50,50%
+img_014_crop_15,img_014,crop_15,15% border crop
+img_014_brightness_20,img_014,brightness_20,+20% brightness
+img_014_rotate_5,img_014,rotate_5,+5 degrees
+img_014_jpeg_quality_50,img_014,jpeg_quality_50,JPEG quality=50
+img_015_resize_50,img_015,resize_50,50%
+img_015_crop_15,img_015,crop_15,15% border crop
+img_015_brightness_20,img_015,brightness_20,+20% brightness
+img_015_rotate_5,img_015,rotate_5,+5 degrees
+img_015_jpeg_quality_50,img_015,jpeg_quality_50,JPEG quality=50
+img_016_resize_50,img_016,resize_50,50%
+img_016_crop_15,img_016,crop_15,15% border crop
+img_016_brightness_20,img_016,brightness_20,+20% brightness
+img_016_rotate_5,img_016,rotate_5,+5 degrees
+img_016_jpeg_quality_50,img_016,jpeg_quality_50,JPEG quality=50
+img_017_resize_50,img_017,resize_50,50%
+img_017_crop_15,img_017,crop_15,15% border crop
+img_017_brightness_20,img_017,brightness_20,+20% brightness
+img_017_rotate_5,img_017,rotate_5,+5 degrees
+img_017_jpeg_quality_50,img_017,jpeg_quality_50,JPEG quality=50
+img_018_resize_50,img_018,resize_50,50%
+img_018_crop_15,img_018,crop_15,15% border crop
+img_018_brightness_20,img_018,brightness_20,+20% brightness
+img_018_rotate_5,img_018,rotate_5,+5 degrees
+img_018_jpeg_quality_50,img_018,jpeg_quality_50,JPEG quality=50
+img_019_resize_50,img_019,resize_50,50%
+img_019_crop_15,img_019,crop_15,15% border crop
+img_019_brightness_20,img_019,brightness_20,+20% brightness
+img_019_rotate_5,img_019,rotate_5,+5 degrees
+img_019_jpeg_quality_50,img_019,jpeg_quality_50,JPEG quality=50
+img_020_resize_50,img_020,resize_50,50%
+img_020_crop_15,img_020,crop_15,15% border crop
+img_020_brightness_20,img_020,brightness_20,+20% brightness
+img_020_rotate_5,img_020,rotate_5,+5 degrees
+img_020_jpeg_quality_50,img_020,jpeg_quality_50,JPEG quality=50
