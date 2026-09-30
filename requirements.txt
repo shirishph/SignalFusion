@@ -1,1 +1,7 @@
+imagehash
+numpy
+onnx
+onnxruntime
+opencv-python
 pillow
+pytesseract
