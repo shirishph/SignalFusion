@@ -24,7 +24,6 @@ def preprocess(image_path):
     return image
 
 def main():
-    print()
     print("pHash")
 
     candidates_file = Path("candidates/candidates.json")
@@ -356,7 +355,6 @@ def main():
         json.dump(result, f, indent=2, ensure_ascii=False)
 
     print(f"Created: {output_path}")
-
 
 if __name__ == "__main__":
     main()

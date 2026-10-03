@@ -520,7 +520,6 @@ def create_html_report(results, candidate_metadata):
     candidate_cards = []
 
     for cid, scores in results.items():
-
         metadata = candidate_metadata.get(cid, {})
 
         image_filename = metadata.get(
@@ -529,6 +528,8 @@ def create_html_report(results, candidate_metadata):
         )
 
         image_path = CANDIDATES_DIR / image_filename
+
+        print(">> ", image_path)
 
         image_uri = image_to_data_uri(image_path)
 

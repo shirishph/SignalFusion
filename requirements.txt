@@ -2,4 +2,6 @@ ImageHash
 numpy
 onnxruntime
 opencv-python
+PicImageSearch
 pytesseract
+requests
