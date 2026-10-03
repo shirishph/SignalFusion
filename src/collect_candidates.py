@@ -6,7 +6,7 @@ import sys
 from pathlib import Path
 
 
-MAX_QUERIES = 3
+MAX_QUERIES = None
 
 
 def load_queries(path):
@@ -46,12 +46,13 @@ def main():
     queries = load_queries(input_path)
 
     print(f"Queries available: {len(queries)}")
-    print(f"Processing first {min(MAX_QUERIES, len(queries))} queries")
+    limit = len(queries) if MAX_QUERIES is None else min(MAX_QUERIES, len(queries))
+    print(f"Processing {limit} queries")
     print()
 
-    for index, item in enumerate(queries[:MAX_QUERIES], start=1):
+    for index, item in enumerate(queries[:limit], start=1):
         print(
-            f"[{index}/{min(MAX_QUERIES, len(queries))}] "
+            f"[{index}/{limit}] "
             f"{item['query_id']} / {item['query_type']}"
         )
 

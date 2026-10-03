@@ -182,6 +182,39 @@ def combined_score(
 
     return numerator / denominator
 
+def classify_evidence(result: dict) -> str:
+    exact = result["exact_hash"]
+    phash = result["phash"]
+    image = result["embedding"]
+    face = result["face"]
+
+    if exact == 1.0:
+        return "EXACT_MATCH"
+
+    strong_visual = (
+        phash >= 0.90
+        and image >= 0.90
+    )
+
+    strong_face = (
+        face is not None
+        and face >= 0.90
+    )
+
+    if strong_visual and strong_face:
+        return "STRONG_VISUAL_FACE_MATCH"
+
+    if strong_visual:
+        return "STRONG_VISUAL_MATCH"
+
+    if strong_face:
+        return "FACE_SUPPORTED_MATCH"
+
+    if phash >= 0.75:
+        return "POSSIBLE_VISUAL_MATCH"
+
+    return "WEAK_OR_UNSUPPORTED_MATCH"
+
 def explain_match(result: dict) -> str:
     reasons = []
 
@@ -319,10 +352,21 @@ if __name__ == "__main__":
         print(f"\n=== {query_id} ===")
 
         for rank, result in enumerate(candidates_for_query, start=1):
+            """
             print(
                 f"{rank}. {result['candidate_id']} "
                 f"score={result['score']:.3f}"
             )
             print(f"   Why: {explain_match(result)}")
+            """
+            label = classify_evidence(result)
+
+            print(
+                f"{rank}. {result['candidate_id']} "
+                f"score={result['score']:.3f} "
+                f"label={label}"
+            )
+            print(f"   Why: {explain_match(result)}")
+
 
 
